@@ -10,7 +10,8 @@ public class countOfWords {
             //System.out.println(word);
         
         fmap.put(word,fmap.getOrDefault(word,0)+1);
-        }
+    
+    }
         
         for(String word:fmap.keySet()){
             System.out.println(word+": "+fmap.get(word));
