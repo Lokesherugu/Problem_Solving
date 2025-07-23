@@ -1,11 +1,11 @@
 public class Matrix_3_3_diagonals {
    public static void diagonalsOf(int[][] arr){
-    for(int i=0;i<3;i++){
+    for(int i=0;i<arr.length;i++){
         System.out.print(arr[i][i]+" ");
         }
     System.out.println();
 
-    for(int i=0;i<3;i++){
+    for(int i=0;i<arr.length;i++){
         System.out.print(arr[i][2-i]+" ");
     }
     
